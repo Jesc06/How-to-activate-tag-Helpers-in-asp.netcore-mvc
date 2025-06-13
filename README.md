@@ -1,1 +1,6 @@
 # How-to-activate-tag-Helpers-in-asp.netcore-mvc
+
+### Add this to _ViewImports.cshtml to enable Tag Helpers such as asp-action, asp-controller, etc.
+```csharp
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+```
